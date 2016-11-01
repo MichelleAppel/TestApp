@@ -11,10 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-       //bodyCheckBox.isChecked();
-        //itemClicked(bodyCheckBox, body);
-
     }
 
     public void onCheckboxClicked(View view) {
