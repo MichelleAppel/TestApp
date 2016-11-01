@@ -17,14 +17,16 @@
         app:srcCompat="@drawable/shoes"
         android:layout_alignBottom="@+id/body"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/arms"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/arms"
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -48,7 +50,8 @@
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/nose"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +74,8 @@
             app:srcCompat="@drawable/ears"
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/eyebrows"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,21 +83,24 @@
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginBottom="0dp" />
+            android:layout_marginBottom="0dp"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/glasses"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/glasses"
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" />
         <ImageView android:id="@+id/hat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/hat"
             android:layout_alignBottom="@+id/body"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" /> />
+            android:layout_alignParentStart="true"
+            android:visibility="invisible" /> />
     />
     <TableLayout
         android:layout_width="wrap_content"
